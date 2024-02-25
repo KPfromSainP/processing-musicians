@@ -8,8 +8,8 @@
     width: 23.44vw;
     height: 31.25vw;
     margin: 0 auto;
-    /* margin-top: 8.07vw; при включенном header */
-    margin-top: 12.50vw; /*при выключенном header*/
+    margin-top: 8.07vw; /* при включенном header */
+    /* margin-top: 12.50vw; при выключенном header */
     justify-content:center;
 }
 .form-reg > h3{
