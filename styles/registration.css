@@ -86,7 +86,7 @@
 .regestry_button {
     display: block;
     margin: 0 auto;
-    margin-top: 1.67vw;
+    margin-top: 1.25vw;
     padding-left: 0;
     padding-right: 0;
     font-family: "Montserrat", sans-serif;
@@ -103,12 +103,13 @@
 }
 .do-you-have-acc-div {
     display: flex;
-    font-size: 1.25vw;  
+    font-size: 1.04vw;  
     font-weight: 500;
 }
 .do-you-have-acc-div > span {
     margin: 0 auto;
     margin-top: 1.25vw;
+    color: #DFDFDFBF;
 }
 .do-you-have-acc-div > span >  a {
     color: #C3006B;
