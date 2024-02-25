@@ -1,0 +1,401 @@
+html {
+  font-size: 0.52vw;
+  font-family: "Montserrat", sans-serif;
+  color: #DFDFDF;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0) #C3006B;
+  overflow: overlay;
+}
+
+body::-webkit-scrollbar {
+  width: 0.31vw;  
+  height: 0.31vw;             
+}
+body::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);        
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #C3006B;    
+  border-radius: 0.21vw;      
+  border: 0.05vw solid rgba(0, 0, 0, 0);  
+}
+
+.gradient-rectangle {
+  background: linear-gradient(#0B0106, #7D1950, #853561, #7D1950, #33292E)
+}
+
+.page {
+  padding-left: 7.81vw;
+  padding-right: 7.81vw;
+  margin: 0 auto;
+  display: block;
+}
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-top: 2.24vw;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #DFDFDF;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding-inline-start: 0;
+}
+
+img {
+  max-width: 100%;
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-span {
+  display: block;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+
+.centrolize {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 2.60vw; /* 50 px*/
+}
+
+h2 {
+  text-align: center;
+  padding-left: 5.83vw;
+  padding-right: 5.83vw;
+  font-weight: 700;
+  font-size: 1.88vw;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h3 {
+  text-align: center;
+  padding-left: 2.08vw;
+  padding-right: 2.08vw;
+  font-weight: 700;
+  font-size: 1.25vw;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  width: 10.47vw;
+  padding-top: 1.72vw;
+}
+
+.cute-rectangle {
+  display: grid;
+  background-color: #00000040;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.34vw;
+}
+
+.nav>li {
+  font-size: 1.25vw;
+  margin-left: 3.39vw;
+  font-weight: 500;
+}
+.nav>li>a {
+  color: #DFDFDF;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo_img{
+  width: 1.82vw;
+  height: 1.82vw;
+  background-image: url(../imges/logo\ 1.svg);
+}
+.logo_text {
+  color: #DFDFDF;
+  font-size: 1.25vw;
+  padding-left: 0.78vw;
+  font-weight: 700;
+}
+.login_button {
+  margin-left: 0.78vw;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: "Montserrat", sans-serif;
+  background: #C3006B;
+  border-radius:5000px;
+  height: 2.19vw;
+  width: 7.08vw;
+  font-weight: 500;
+  font-size: 1.25vw;  
+  border: none;
+  color: #DFDFDF;
+  box-shadow: 0px 0px 13px 5px #00000040;
+  cursor: pointer;
+}
+
+.general-wrap-info {
+  margin-left: 5.21vw;
+  margin-right: 5.21vw;
+}
+
+.wrap-main {
+  width: 21.72vw;
+  height: 15.16vw;
+  margin-top: 9.48vw;
+}
+
+.wrap-registrarion>p {
+  font-size: 1.04vw; 
+  font-weight: 700;
+}
+
+.button-with-no-back {
+  font-family: "Montserrat", sans-serif;
+  background: #00000000;
+  padding-left: 0;
+  padding-right: 0;
+  border: 0.21vw solid #DFDFDF;
+  border-radius:5000px;
+  color: #DFDFDF;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.try-course-button {
+  margin-top: 1.72vw;
+  height: 3.91vw;
+  width: 15.78vw;
+  font-size: 1.25vw;
+}
+
+.content-our-courses-button {
+  width: 13.44vw;
+  height: 3.49vw;
+  font-size: 1.04vw;
+  margin-bottom: 3.13vw;
+}
+
+.wrap-interest{
+  margin-top: 20.89vw;
+  /* width: 73.96vw; */
+  height: 46.88vw;
+}
+.content-interest>p {
+  padding-left: 7.81vw;
+  padding-right: 7.81vw;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.25vw; /* 24 px*/
+}
+.laptop-img {
+  padding-top: 5.26vw; 
+  width: 54.27vw;
+  height: 24.32vw;
+}
+
+.wrap-our-courses {
+  margin-top: 11.30vw;
+  /* width: 73.96vw; */
+}
+.choose-a-course{
+  margin-top: 3.91vw;
+  display: flex;
+  justify-content: space-between;
+}
+.content-our-courses{
+  width: 29.69vw;
+  height: 39.95vw;
+  border-radius: 2.34vw;
+}
+.content-our-courses>p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.04vw;
+  display: block;
+  width: 21.72vw;
+  height: 6.20vw;
+  margin: 0.52vw auto;
+}
+.logo-program-img{
+  width: 5.21vw;
+  height: 5.21vw;
+  margin-top: 4.22vw;
+  margin-bottom: 10.73vw;
+}
+.in-courses-div{
+  margin-top: 1.88vw;
+}
+
+.wrap-course-content {
+  margin-top: 9.90vw;
+}
+.roadmap-courses {
+  display: grid;
+  grid-template-areas: "a . c ." ". b . d";
+  /* width: 73.96vw; */
+  height: 26.30vw;
+  justify-content: space-between;
+  row-gap: 2.97vw;
+  margin-top: 4.53vw;
+}
+.roadmap-element-div {
+  display: inline;
+  width: 14.64vw;
+  height: 11.67vw;
+  font-size: 0.83vw;
+  text-align: center;
+}
+.roadmap-element-header {
+  width: 100%;
+  height: 50%;
+}
+.roadmap-element-content {
+  width: 100%;
+  height: 50%;
+}
+.first-block-of-roadmap{ grid-area:a}
+.second-block-of-roadmap{ grid-area:b}
+.third-block-of-roadmap{ grid-area:c}
+.fourth-block-of-roadmap{ grid-area:d}
+
+.first-arrow-image {
+  position: absolute;
+  margin-top: 183.96vw;
+  margin-left: 20.36vw;
+  width: 11.46vw;
+  height: 8.80vw;
+  background-image: url(../imges/Vector\ 1.svg);
+}
+.second-arrow-image {
+  position: absolute;
+  margin-top: 177.34vw;
+  margin-left: 43.44vw;
+  width: 8.07vw;
+  height: 8.02vw;
+  background-image: url(../imges/Vector\ 2.svg);
+}
+.third-arrow-image {
+  position: absolute;
+  margin-top: 183.96vw;
+  margin-left: 60.36vw;
+  width: 10.68vw;
+  height: 9.84vw;
+  background-image: url(../imges/Vector\ 3.svg);
+}
+.image-pictures-40px{
+  width: 2.14vw;
+  height: 2.08vw;
+}
+.price-image {
+  background-image: url(../imges/free.svg);
+}
+.list-image {
+  background-image: url(../imges/choise.svg);
+}
+.certificate-image {
+  background-image: url(../imges/certificate.svg);
+}
+.portfolio-image {
+  background-image: url(../imges/portfolio.svg);
+}
+.logo-vk {
+  background-image: url(../imges/vk.svg);
+}
+.logo-gmail {
+  background-image: url(../imges/gmail.svg);
+}
+.logo-tg {
+  background-image: url(../imges/telegram.svg);
+}
+
+.our-advantages>h3 {
+  padding-left: 0;
+  text-align: start;
+  margin-top: 0.36vw;
+}
+.our-advantages {
+  font-size: 0.83vw;
+  color: #DFDFDF;
+}
+.our-advantages > p {
+  opacity: 50%;
+  margin-top: 1.20vw;
+}
+.advantages-content-first{
+  width: 7.34vw;
+}
+.advantages-content-second{
+  width: 11.25vw;
+}
+.advantages-content-third{
+  width: 8.28vw;
+}
+.advantages-content-fourth{
+  width: 13.49vw;
+}
+.enumeration-advantages {
+  justify-content: space-between;
+}
+.wrap-advantage {
+  margin-top: 9.90vw;
+}
+.our-advantages-div {
+  margin-top: 5.05vw;
+} 
+
+.wrap-about-us {
+  margin-top: 6.56vw;
+}
+.wrap-about-us > p {
+  font-size: 1.04vw;
+  font-weight: 500;
+  margin-top: 1.15vw;
+}
+.footer {
+  display: grid;
+  margin-top: 21.51vw;
+  grid-template-areas: "g j" "k k";
+}
+
+
+.left-up-footer{ grid-area:g}
+.right-up-footer{ grid-area:j; justify-self:end}
+.down-footer{ grid-area:k; margin-top: 3.75vw;}
+
+.left-up-footer > ul {
+  width: 17.71vw;
+  display: flex;
+  justify-content: space-between;
+}
+.down-footer {
+  font-size: 1.04vw;
+  font-weight: 500;
+  margin-bottom: 1.88vw;
+}
+.right-up-footer {
+  font-size: 1.88vw; 
+  font-weight: 900;
+}
+
