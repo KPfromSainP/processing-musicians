@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="styles/registration.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="scripts/main.js"></script>
+    <title>Nom</title>
+</head>
+<body>
+    <div class="gradient-rectangle" style="background: linear-gradient(#33292E, #7D1950); width: 100vw; height: 100vh;">
+        <div class="page" style="height: 100hv;">
+          <!-- <header>
+            <div class="header">
+              <a href="" class="logo">
+                <span class="logo_img image-span"></span>
+                <span class="logo_text">Nom</span>
+              </a>
+              <nav>
+                <ul class="nav">
+                  <li><a href="">курсы</a></li>
+                  <li style="  margin-left: 3.02vw;"><a href="">содержание</a></li>
+                  <li style="  margin-left: 3.02vw;"><a href="">преимущества</a></li>
+                  <li style="  margin-left: 3.96vw;"><a href="">о нас</a></li>
+                  <li style="  margin-left: 3.33vw;"><a href="">обратная связь</a></li>
+                </ul>
+              </nav>
+              <button type="button" class="login_button">войти</button>
+            </div>
+          </header> -->
+          <div class="registration-page-div" style="display: flex; flex-direction: column;">
+            <div class="cute-rectangle form-reg ">
+                <h3>регистрация</h3>
+                <form action="registration.html" method="post" class="registration-form-input" autocomplete="off">
+                    <input required type="email" id="mail" name="email" placeholder="email" class="input-shelter">
+                    <input required type="password" id="password" name="password" placeholder="пароль" class="input-shelter">
+                    <input required type="password" id="password_repeat" name="password-repeat" placeholder="повторите пароль" class="input-shelter">
+                    <input required type="text" id="name" name="name" placeholder="имя" class="input-shelter">
+
+                    <div class="sex-input-div">
+                        <input type="radio" id="male" value="male" name="sex" class="sex-input-checkbox" checked><label for="male" class="sex-input">мужской</label>
+                        <input style="margin-left: 1.09vw;" type="radio" id="female" value="female" name="sex" class="sex-input-checkbox female-checkbox"><label for="female" class="sex-input">женский</label>
+                    </div>
+                    <button type="submit" class="regestry_button">зарегестрироваться</button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
